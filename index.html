@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Home</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">	
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+		</head>
+		<body>
+			<div class="container">
+				<div class="header">
+					<h1> Home Page </h1>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">Tips and Tricks</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="news.html">News</a></li>
+					</ul>
+				</div>
+				<div class="banner">
+					<center><img src="https://cdn.discordapp.com/attachments/755125010867159323/802983077244305428/New_Piskel-3.png.png"></center>
+				</div>
+				<div class="contentl">
+					<p></p>
+				</div>
+				<div class="contentm">
+					<center><img src="https://cdn.discordapp.com/attachments/755125010867159323/802975534136164402/MC_orc.png">
+					<img src="https://cdn.discordapp.com/attachments/755125010867159323/802975942720487464/MC_vamp.png">
+					<img src="https://cdn.discordapp.com/attachments/755125010867159323/802975977663496232/MC_imp.png">
+					<img src="https://cdn.discordapp.com/attachments/755125010867159323/802976008209694720/MC_skely.png">
+					<center><h2>Pixel art</h2></center>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+						 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+						 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+						  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2>The website I used.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<img src="https://cdn.discordapp.com/attachments/755125010867159323/802978689574502431/swurd.png"></center>
+					<center><canvas id="myCanvas" width="170" height="100" style="border:1px solid #000000;">
+						<script>
+							var c = document.getElementById("myCanvas");
+							var ctx = c.getContext("2d");
+							
+							// Create gradient
+							var grd = ctx.createLinearGradient(0, 0, 200, 0);
+							grd.addColorStop(0, "cyan");
+							grd.addColorStop(1, "white");
+							
+							// Fill with gradient
+							ctx.fillStyle = grd;
+							ctx.fillRect(10, 10, 150, 80);
+							</script>
+						<script>
+							var c = document.getElementById("myCanvas");
+							var ctx = c.getContext("2d");
+							ctx.font = "30px Arial";
+							ctx.strokeText("Pixel art", 20, 50);
+							</script>
+
+
+					</canvas></center>
+				</div>
+				<div class="contentr">
+					<p></p>
+				</div>
+				<div class="footer">
+					<center><img src="https://cdn.discordapp.com/attachments/755125010867159323/802979559058047026/arrow.png"></center>
+					<center><a class="button" href="https://www.piskelapp.com/">Piskel</a></center>
+				</div>
+			</div>
+		</body>
+	</html>

@@ -1,0 +1,106 @@
+html, body{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: static;
+    float: left;
+}
+.header{
+    width: 100%;
+    background-color:#333;
+    float: left;
+
+} 
+.header  h1{
+	color: white;
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+.contentl{
+    width: 15%;
+	height: 100%;
+    background-color:#131313;
+    float: left;
+ } 
+ .contentm{
+    width: 70%;
+	height: 100%;
+    background-color:white;
+    font-size: 35px;
+    float: left;
+    padding-bottom: 150px;
+
+ }
+ .contentm h2{
+    font-family: 'Coda Caption', sans-serif;
+}
+ .contentr{
+    width: 15%;
+	height: 100%;
+    background-color:#131313;
+    float: left;
+ } 
+ .footer{
+    width: 100%;
+	height: 25%;
+    background-color:#333;
+    float: left;
+    text-align: center;
+ } 
+.footer img{
+    width: 100px;
+    padding-top: 25px;
+}
+.footer p{
+    color: #131313;
+}
+.banner{
+    width: 100%;
+    height: 25%;
+    background-color:white;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Rancho', cursive;
+}
+li a:hover {
+    background-color: #c5005c;
+}
+.button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+.button:hover {
+    transition-duration: 0.3s;
+    background-color: #c5005c;
+}
